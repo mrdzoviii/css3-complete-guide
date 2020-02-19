@@ -1,10 +1,5 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
-
 #product-overview {
-    background: url("resources/freedom.jpg");
+    background: url("img/freedom.jpg");
     width: 100%;
     height: 528px;
     padding: 10px
@@ -14,73 +9,6 @@ body{
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.main-header {
-    width: 100%;
-    background: #2ddf5c;
-    padding: 8px 16px;
-}
-.main-header > div {
-    display: inline-block;
-}
-
-.main-header--brand {
-    text-decoration: none;
-    color: #0e4f1f;
-    font-weight: bold;
-    font-size: 22px;
-    vertical-align: middle;
-}
-
-.main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc( 100% - 74px );
-    vertical-align: middle;
-}
-
-.main-nav--item {
-    display: inline-block;
-    margin: 0 16px;
-}
-.main-nav--item > a:hover,
-.main-nav--item > a:active
-{
-    color:white;
-    border-bottom: 5px solid white;
-}
-
-.main-nav--item > a {
-    text-decoration: none;
-    color: #0e4f1f;
-    padding: 3px 0;
-    font-weight: bold;
-}
-
-.main-nav--item--cta > a {
-    color: white;
-    background: #ff1b68;
-    padding: 8px 16px;
-    border-radius: 8px
-}
-
-.main-nav--item--cta > a:hover,
-.main-nav--item--cta > a:active
-{
-    color:#ff1b68;
-    background: white;
-    border: none;
-}
-
-.main-nav--items {
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
 
 .section-title {
@@ -138,25 +66,7 @@ body{
     margin: 8px 0;
 }
 
-.button{
-    background: #0e4f1f;
-    color:white;
-    font: inherit;
-    border: 2px solid #0e4f1f;
-    padding: 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-}
 
-.button:active,
-.button:hover {
-    background: white;
-    color:#0e4f1f;
-}
-.button:focus{
-    outline: none;
-}
 
 #key-features{
     background: #ff1b68;
@@ -197,33 +107,4 @@ body{
     height: 128px;
     margin: 0 auto;
 }
-
-.main-footer {
-    background: black;
-    padding: 32px;
-    margin-top:48px;
-}
-
-.main-footer--links{
-    list-style: none;
-    margin:0;
-    padding:0;
-    text-align:center;
-}
-
-.main-footer--link {
-    display: inline-block;
-    margin:0 16px;
-}
-
-.main-footer--link a{
-    color:white;
-    text-decoration: none;
-}
-
-.main-footer--link a:active,
-.main-footer--link a:hover{
-    color:#ccc;
-}
-
 
