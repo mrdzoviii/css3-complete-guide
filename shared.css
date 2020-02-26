@@ -27,6 +27,11 @@ body{
     font-weight: bold;
     font-size: 22px;
     vertical-align: middle;
+    height: 22px;
+}
+
+.main-header--brand img {
+    height: 22px;
 }
 
 .main-nav {
